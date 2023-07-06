@@ -2,3 +2,25 @@
     margin: 0;
     padding: 0;
 }
+/* header part */
+
+/* navigation bar */
+.navContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgb(66, 66, 66);
+}
+.logo{
+    width: 120px;
+}
+.menuWrapper{
+    display: flex;
+}
+.menu{
+    list-style: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
