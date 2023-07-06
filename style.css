@@ -24,3 +24,94 @@
     color: white;
     font-size: 20px;
 }
+/* banner  */
+.banner{
+    height: 100vh;
+    background-image: url(./images/background.png), linear-gradient(45deg, rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bannerContainer{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: inherit;
+}
+.bannerHeading{
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+.bannerTxt{
+    margin-bottom: 18px;
+}
+.btn{
+    background-color: red;
+    border-radius: 3px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+.bannerImage{
+    width: 300px;
+    /* height: 200px; */
+}
+
+/* about */
+.Headline{
+    text-align: center;
+    font-size: 54px;
+    margin-top: 30px;
+}
+.aboutContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+.aboutImage{
+    width: 300px;
+}
+.aboutTxt{
+    margin: 20px 0;
+}
+/* service */
+.service{
+    color: white;
+    background-image: url(./images/background.png), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0 50px;
+}
+.headline1{
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 50px;
+}
+.serviceContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.serviceBox{
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 4px 2px 105px grey;
+}
+.serviceImage{
+    width: 70px;
+}
+.serviceHeading{
+    margin: 20px 0;
+}
+.serviceBtn{
+    margin-top: 20px;
+    background-color: rgb(9, 9, 9);
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 2px;
+}
